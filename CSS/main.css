@@ -90,12 +90,12 @@ body {
 
 /* Animation */
 #title {
+    height: 7rem;
     border-right: solid 3px rgba(0, 0, 0, 0.75);
     white-space: pre;
-    overflow: hidden;     
+    /* overflow: hidden; */
     letter-spacing: 0.20rem;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 10rem 0;
     max-width: 480px;
   }
   
@@ -337,9 +337,9 @@ form button {
         animation: 
             animated-text 3s steps(16,end) 0.5s 1 normal both,
             animated-cursor 750ms steps(16,end) infinite;
-        margin-bottom: 10px;
-        margin-top: 30px;
+        margin: 5rem 0;
         max-width: 330px;
+        height: 5rem;
     }
 }
 
@@ -353,6 +353,7 @@ form button {
             animated-text 3.5s steps(16,end) 0.5s 1 normal both,
             animated-cursor 750ms steps(16,end) infinite;
         max-width: 255px;
+        height: 4rem;
     }
 }
 
